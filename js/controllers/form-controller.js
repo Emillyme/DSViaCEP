@@ -1,5 +1,8 @@
+import Address from "../models/address.js;
 
 function State(){ //função construtora
+
+    this.address = new Address(); 
     this.btnSave = null;
     this.btnClear = null;
 
